@@ -38,11 +38,11 @@ function tableOfContent(data) {
   let questions = '';
 
   if(data.confirmInstallation) {
-    installation = '- [Installation](#%EF%B8%8F-installation)';
+    installation = '- [Installation](#-installation)';
   } 
   
   if(data.confirmUsage) {
-    usage = '- [Usage](#%EF%B8%8F-usage)';
+    usage = '- [Usage](#-usage)';
   }
   
   if(data.confirmLicense) {
@@ -99,7 +99,7 @@ ${data.aboutInstallationCommands}
 
 
     return `
-## ⚙️ Installation
+  ## Installation
 
 ${data.aboutInstallation}
 ${confirmInstallationCommands}
@@ -124,7 +124,7 @@ ${data.aboutUsageCommands}
     } 
 
     return `
-## 🖥️ Usage
+## Usage
 
 ${data.aboutUsage}
 ${usageCommands}
@@ -139,7 +139,7 @@ ${usageCommands}
 function genLisenceSec(data) {
   if(data.confirmLicense) {
     return `
-## 📝 License
+## License
 
 ${renderLicenseSection(data.license)}
 `
@@ -152,7 +152,7 @@ ${renderLicenseSection(data.license)}
 function genContributingSec(data) {
   if(data.confirmContributing) {
     return `
-## 🤝 Contributing
+   ## Contributing
 
 ${data.aboutContributing}
 `
@@ -166,7 +166,7 @@ ${data.aboutContributing}
 function genTestSec(data) {
   if(data.confirmTests) {
     return `
-## 🧪 Tests
+## Tests
 
 ${data.aboutTests}
 `
@@ -180,7 +180,7 @@ ${data.aboutTests}
 function genQuestionSec(data) {
   if(data.confirmQuestions) {
     return `
-## ❓ Questions
+## Questions
 
 If you have any questions regarding this application, please reach out via email or github!
 
@@ -200,10 +200,10 @@ function generateMarkdown(data) {
 # ${data.projectName}
 ${renderLicenseBadge(data.license)} ${genToolsLanguagesSec(data)}
 
-## 📜 Description
+## Description
 ${data.description}
 
-## 📋 Table Of Contents
+## Table Of Contents
 ${tableOfContent(data)}
 ${genInstallationSec(data)}
 ${genUsageSec(data)}
