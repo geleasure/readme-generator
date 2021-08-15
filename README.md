@@ -6,14 +6,14 @@ A command-line application that dynamically generates a professional README.md f
 
 # Table Of Contents
 
-- [Installation](#%EF%B8%8F-installation)
-- [Usage](#%EF%B8%8F-usage)
-- [Walkthrough Video](#%EF%B8%8F-walkthrough-video)
-- [Final Output GIF](#%EF%B8%8F-final-output-gif)
-- [License](#-license)
-- [Contributing](#-contributing)
-- [Tests](#-tests)
-- [Questions](#-questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Walkthrough Video](#walkthrough-video)
+* [Final Output GIF](#final-output-gif)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
   
 
 ## Installation
