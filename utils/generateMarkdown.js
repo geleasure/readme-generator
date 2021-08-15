@@ -38,27 +38,27 @@ function tableOfContent(data) {
   let questions = '';
 
   if(data.confirmInstallation) {
-    installation = '- [Installation](#-installation)';
+    installation = '* [Installation](#-installation)';
   } 
   
   if(data.confirmUsage) {
-    usage = '- [Usage](#-usage)';
+    usage = '* [Usage](#-usage)';
   }
   
   if(data.confirmLicense) {
-    license = '- [License](#-license)';
+    license = '* [License](#-license)';
   }
   
   if(data.confirmContributing) {
-    contributing = '- [Contributing](#-contributing)';
+    contributing = '* [Contributing](#-contributing)';
   }
   
   if(data.confirmTests) {
-    tests = '- [Tests](#-tests)';
+    tests = '* [Tests](#-tests)';
   }
 
   if(data.confirmQuestions) {
-    questions = '- [Questions](#-questions)';
+    questions = '* [Questions](#-questions)';
   }
 
   return `
