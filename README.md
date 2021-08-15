@@ -16,7 +16,7 @@ A command-line application that dynamically generates a professional README.md f
 - [Questions](#-questions)
   
 
-# Installation
+## Installation
 
 Please clone the repo and run the following command
 
@@ -25,7 +25,7 @@ npm install
 ```
 
 
-# Usage
+## Usage
 
 You can generate the readme generator by running the following commands 
 
@@ -33,31 +33,31 @@ You can generate the readme generator by running the following commands
 node index.js
 ```
 
-# Walkthrough Video
+## Walkthrough Video
 
 [**Click Here**](MY VIDEO) to view the walkthrough video.
 
-## ▶️ Final Output GIF
+## Final Output GIF
 
 ![Final Output](./src/final-outputnotyet.gif "Final output of the project")
 
 
-# License
+## License
 
 This application is covered under the [MIT](https://choosealicense.com/licenses/mit/) license.
 
 
-# Contributing
+## Contributing
 
 Contributions, issues and feature requests are welcome. Feel free to check issues page if you want to contribute.
 
 
-# Questions
+## Questions
 
 If you have any questions regarding this application, please reach out via email or github!
 
-# Email:
+## Email:
 grleasure@gmail.com
 
-# GitHub:
+## GitHub:
 https://github.com/geleasure
