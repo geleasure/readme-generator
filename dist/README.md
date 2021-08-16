@@ -17,7 +17,7 @@ Make a fast readmefile for your project.
 
 ## Installation
 
-please cloe this repo then run the following command
+please clone this repo then run the following command
 
 ```
 npm install
@@ -27,7 +27,7 @@ npm install
 
 ## Usage
 
-Us for a fasteer service
+Use for a fasteer service
 
 ```
 use command node index.js to run program
