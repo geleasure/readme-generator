@@ -35,11 +35,11 @@ node index.js
 
 ## Walkthrough Video
 
-[**Click Here**](MY VIDEO) to view the walkthrough video.
+[**Click Here**](https://youtu.be/nbR019T30IM) to view the walkthrough video.
 
 ## Final Output GIF
 
-![Final Output](./src/final-outputnotyet.gif "Final output of the project")
+![Final Output](./src/final-output.gif "Final output of the project")
 
 
 ## License
